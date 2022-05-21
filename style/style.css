@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background: #141f36;
     font-family: 'Montserrat', sans-serif;
 }
@@ -9,7 +12,7 @@ body {
     background: #112452;
     border-radius: 20px;
     box-shadow: 5px 5px 50px rgb(14, 3, 56);
-    margin: 5% 40%;
+    margin: 5% 40% 0 40%;
 }
 
 #head {
@@ -53,6 +56,7 @@ button {
     color: #F0F0F0;
     font-size: 150%;
     font-size: 35px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -65,7 +69,7 @@ button:hover {
 }
 
 .center:hover {
-    background-color: #1b346e;
+    background-color: #162d61;
     transition: .5s;
 }
 
@@ -75,4 +79,11 @@ button:hover {
 
 #enter:hover {
     background-color: #011a50;
+    transition: .5s;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    color: #F0F0F0;
 }
