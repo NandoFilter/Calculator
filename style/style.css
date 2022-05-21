@@ -55,10 +55,24 @@ button {
     font-size: 35px;
 }
 
+button:hover {
+    background-color: #2e4883;
+    transition: .5s;
+}
+
 .center {
     background-color: #234186;
 }
 
+.center:hover {
+    background-color: #1b346e;
+    transition: .5s;
+}
+
 #enter {
     background-color: #021030;
+}
+
+#enter:hover {
+    background-color: #011a50;
 }
