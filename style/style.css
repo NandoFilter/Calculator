@@ -87,3 +87,9 @@ footer p {
     align-items: center;
     color: #F0F0F0;
 }
+
+.link {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
