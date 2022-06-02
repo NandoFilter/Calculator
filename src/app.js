@@ -1,13 +1,14 @@
 const numbers = document.getElementsByClassName('number');
 const count = document.getElementById('conta');
 
-
-
-console.log( numbers );
-
-function clickButton() {
-    count.innerText('AAA')
+function clickButton( number ) {
+    count.innerText = number;
 }
 
-const btn_7 = document.getElementById('btn_7')
-btn_7.onclick = clickButton();
+function main() {
+    for(let i = 0; i < numbers.length; i++) {
+        numbers[i].onclick = () => { clickButton(numbers[i].innerHTML) };
+    }   
+}
+
+main();
